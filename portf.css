@@ -113,3 +113,34 @@ nav{
         display: flex;
         flex-direction: column-reverse;
     } */
+
+.edu_clg{
+    /* width: 530px; */
+    height: 250px;
+    border: 4px double white;
+    width: 100%;
+    /* padding: 0px !important; */
+    /* max-inline-size: -webkit-fill-available; */
+}
+
+.matrc{
+    margin-top: 30px;
+}
+
+/* ***************Slill ********************** */
+.skl{
+    background-color: rgb(62, 62, 62);
+    border-radius: 5px;
+}
+.skill_bx{
+    background-color: #ea9999;
+    /* justify-content: center; */
+    /* height: 50px; */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.abc{
+    width: 50px;
+    height: 20px;
+}
