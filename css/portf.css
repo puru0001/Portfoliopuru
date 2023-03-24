@@ -52,19 +52,19 @@ nav{
 .sec1{
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
-.sec1 h6{
+/* .sec1 h6{
     margin-top: 25px;
     margin-bottom: 15px;
-}
+} */
 .sec2 img{
     height: 360px;
     width: fit-content;
     border-radius: 5%;
     border: 5px double rgb(62,62,62);
 }
-.btn_sec :hover{
+/* .btn_sec :hover{
     margin-left: 10px
-}
+} */
 /* .btn2 a:hover{
     text-decoration: none;
     color: white;
@@ -104,9 +104,13 @@ nav{
 /* .edu .strm{
 
 } */
-.res{
+.flex_end{
     display: flex;
     justify-content: flex-end;
+}
+.flex_start{
+    display: flex;
+    justify-content: flex-start;
 }
 /* @media (max-width: 540px) {
     .sec_home .row{
@@ -128,7 +132,7 @@ nav{
 }
 
 /* ***************Slill ********************** */
-.skl{
+.container_content_bg_nd_pd{
     background-color: rgb(62, 62, 62);
     border-radius: 5px;
 }
@@ -146,4 +150,29 @@ nav{
 }
 .skl_logo{
     height: 65px;
+    ;
 }
+/* ******************************************** Experience ************************************************ */
+.org_logo{
+    border-radius: 5px;
+    width: 100%;
+}
+.exp_cat_head{
+    font-size: 25px;
+    font-weight: 500;
+}
+.exp_cat_body{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.info_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-bottom: 10px; */
+}
+
+.btn :focus {
+    outline: none;
+  }
