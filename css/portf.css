@@ -173,6 +173,9 @@ nav{
     /* margin-bottom: 10px; */
 }
 
-.btn :focus {
+/* .btn :focus {
     outline: none;
-  }
+  } */
+.rmv_undr_ln :hover{
+    text-decoration: none;
+}
