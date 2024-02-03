@@ -14,9 +14,7 @@ nav{
     margin: 10px 0;
     justify-content: flex-end;
 }
-
 .nav_links li{
-    /* background-color: black; */
     display: inline-block;
     list-style: none;
     padding: 5px 15px;
@@ -30,11 +28,6 @@ nav{
     color: rgb(62, 62, 62);
     border-radius: 10px;
 }
-/* .nav_links :hover{
-    
-    color: brown !important;
-    text-decoration: none !important;
-} */
 .nmlogo{
     display: inline-block;
     margin: 20px 0px 20px 40px;
@@ -52,23 +45,12 @@ nav{
 .sec1{
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
-/* .sec1 h6{
-    margin-top: 25px;
-    margin-bottom: 15px;
-} */
 .sec2 img{
     height: 360px;
     width: fit-content;
     border-radius: 5%;
     border: 5px double rgb(62,62,62);
 }
-/* .btn_sec :hover{
-    margin-left: 10px
-} */
-/* .btn2 a:hover{
-    text-decoration: none;
-    color: white;
-} */
 .sm_links{
     margin-top: 10px;
     margin-left: 0px !important;
@@ -101,9 +83,6 @@ nav{
 .qua, .strm{
     font-size: 18px;
 }
-/* .edu .strm{
-
-} */
 .flex_end{
     display: flex;
     justify-content: flex-end;
@@ -112,19 +91,10 @@ nav{
     display: flex;
     justify-content: flex-start;
 }
-/* @media (max-width: 540px) {
-    .sec_home .row{
-        display: flex;
-        flex-direction: column-reverse;
-    } */
-
 .edu_clg{
-    /* width: 530px; */
     height: 250px;
     border: 4px double white;
     width: 100%;
-    /* padding: 0px !important; */
-    /* max-inline-size: -webkit-fill-available; */
 }
 
 .matrc{
@@ -138,8 +108,6 @@ nav{
 }
 .skill_bx{
     background-color: #ea9999;
-    /* justify-content: center; */
-    /* height: 50px; */
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -172,12 +140,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* margin-bottom: 10px; */
 }
-
-/* .btn :focus {
-    outline: none;
-  } */
 .rmv_undr_ln :hover{
     text-decoration: none;
 }
