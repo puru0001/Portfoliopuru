@@ -48,24 +48,20 @@
                             <img src="images/contact1.png" class="img-fluid" alt="Phone image">
                         </div>
                         <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-                            <form>
-                                <!-- Email input -->
-                                <div class="form-outline mb-4">
-                                    <input type="text" placeholder="Name" class="form-control form-control-lg" />
-                                </div>
-                                <div class="form-outline mb-4">
-                                    <input type="email" placeholder="Email" class="form-control form-control-lg" />
-                                </div>
-                                <div class="form-outline mb-4">
-                                    <input type="number" placeholder="Phone" class="form-control form-control-lg" />
-                                </div>
-                                <div class="form-outline mb-4">
-                                    <textarea name="" id="" placeholder="Message" cols="" rows="" class="form-control form-control-lg"></textarea>
-                                </div>
-                                <div class=" button-area">
-                                    <button type="submit" class=" form-control-lg">
-                                      Submit <i class="fa fa-paper-plane"></i></button>
-                                  </div>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="apikey" value="bb2838d0-7ac0-4e82-9582-019b15476001">
+
+                                <input type="text" name="Name" id="name" placeholder="Name" class=" form-outline mb-4 form-control form-control-lg" />
+
+                                <input type="email" id="email" name="Email" placeholder="Email" class="form-outline mb-4 form-control form-control-lg" />
+
+                                <input type="number" id="phone" name="Phone" placeholder="Phone" class="form-outline mb-4 form-control form-control-lg" />
+
+                                <textarea name="Message" id="massage" placeholder="Message" cols="" rows="" class="mb-3 form-control form-control-lg"></textarea>
+
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                                <button type="submit" class=" form-control-lg"> Submit <i class="fa fa-paper-plane"></i></button>
                             </form>
                         </div>
                     </div>
