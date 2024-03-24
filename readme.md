@@ -1,9 +1,9 @@
-### I have created a a portfolio using HTML, CSS, BOOTSTRAP
+### I have created a portfolio using HTML, CSS and Bootstrap
 
 If you wanted to checkout : [click Here](https://puru0001.github.io/Portfoliopuru/index.html)
 
-for any sugession please submit a massage in contact section,
+for any sugession please submit a massage at contact page,
 you can also connect with me from the following:
 
-[G-mail](puru121122@gmail.com)
-[linkedIn]()
+Gmail : puru121122@gmail.com <br/>
+linkedIn : [LinkedIn](https://www.linkedin?in?puruanand)
