@@ -6,4 +6,4 @@ for any sugession please submit a massage at contact page,
 you can also connect with me from the following:
 
 Gmail : puru121122@gmail.com <br/>
-linkedIn : [LinkedIn](https://www.linkedin?in?puruanand)
+linkedIn : [LinkedIn](https://www.linkedin/in/puruanand)
