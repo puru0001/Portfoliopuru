@@ -138,9 +138,24 @@ nav{
 }
 .info_line{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: flex-start;
 }
 .rmv_undr_ln :hover{
     text-decoration: none;
+}
+/* ***************************************** Projects ************************************************* */
+.exp_cat_head_proj{
+    font-size: 19px;
+    font-weight: 400;
+}
+.exp_cat_body_proj{
+    font-size: 18px;
+    display: flex;
+    /* text-align: right; */
+    align-items: right !important;
+}
+.pg_heading_proj{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
