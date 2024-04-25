@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Portfolio, Purushottam Anand, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content=" Welcome to Purushottam's Portfolio. Data Analyst, Web Developer and Software Engineer. RTU CSE-2023" />
+    <link rel="icon" href="images/web_icon.png" type="image/icon type">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/portf.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="nmlogo rmv_undr_ln">
+                        <a href="index.html" class="text-light">Purushottam Anand</a>
+                    </h3>
+                </div>
+                <div class="col-8 nav_links">
+                    <ul>
+                        <li  class="nav-item"><a href="index.html" class="nav-link">Home</a> </li>
+                        <li  class="nav-item"><a href="About.html"  class="nav-link">About</a></li>
+                        <li  class="nav-item"><a href="Education.html" class="nav-link">Education</a></li>
+                        <li  class="nav-item"><a href="skill.html" class="nav-link">Skill</a></li>
+                        <li  class="nav-item"><a href="Project.html" class="nav-link">Projects</a></li>
+                        <li  class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li  class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="pg_heading">
+                <h1>Data Analytics Projects</h1>
+            </div>
+            <hr style="background-color: white;">
+
+            <div class="col-12">
+                <div class="pl-3 pr-3 mb-1 info_line" style="padding: 0px !important;">
+                    <div class="exp_cat_head_proj">
+                        <h2>Ecommerce Sales Dashboard</h2>
+                    </div>
+                    <span class="exp_cat_body_proj"><a target="_blank"
+                        href="https://github.com/puru0001/Data-Analytics-Projects/tree/main/Ecom"
+                        class="btn btn-light btn-md active" role="button" aria-pressed="true">GitHub Link</a>
+                    </span>
+                </div>
+                <!-- Content  -->
+                <div class="row container_content_bg_nd_pd mb-2 p-3">
+                    It displays various sales and profit metrics for an e-commerce business. While Power BI itself doesn't use Excel formulas directly, it uses a similar formula language called DAX (Data Analysis Expressions) to create calculated columns and measures. SQL is used to query relational databases and retrieve data for use in Power BI.
+                    <br> <br>
+                    Here’s a breakdown of the different sections of the dashboard and the kind of DAX formulas that could be used to create them:
+                    <li> Qtr 1 - Qtr 4 & All: This section likely uses a slicer to allow users to filter the data by quarter.</li>
+
+                    <li> Profit by Month: This section likely uses a DAX formula to calculate the total profit for each month. This would likely involve summing the profit amount for each transaction record where the transaction date falls within the specified month.
+                    <br> <br>
+                    <strong> Sum of Profit & Average of Amount:</strong>
+                    <br>
+                    These are most likely measures created with DAX formulas.
+                    <li> Sum of Profit: This would likely involve summing the profit amount for all transactions.</li>
+                    <li> Average of Amount: This would likely involve calculating the average of the sales amount for all transactions. 
+                    <br> <br>
+                    <strong>Amount by State:</strong>
+                    <br>
+                    This section likely shows a table that breaks down the total sales amount by state. A DAX formula would be used to calculate the total sales for each state. This would likely involve summing the sales amount for each transaction record where the customer’s state matches the specified state.
+                    <br> <br>
+                    <strong> Quantity by Category:</strong>
+                    <br>
+                    This section likely shows a bar chart that displays the total quantity sold for each product category. A DAX formula would be used to calculate the total quantity sold for each category. This would likely involve summing the quantity sold for each transaction record where the product category matches the specified category.
+                    <br> <br>
+                    <strong> Amount by CustomerName:</strong>
+                    <br>
+                    This section likely shows a table that breaks down the total sales amount by customer name. A DAX formula would be used to calculate the total sales for each customer. This would likely involve summing the sales amount for each transaction record where the customer name matches the specified customer name.
+                    <br> <br>
+                    <strong> Quantity by Payment Mode:</strong>
+                    <br>
+                    This section likely shows a pie chart that shows the number of orders placed using each payment method (EMI, COD, Credit Card, Debit Card, UPI). A DAX formula would be used to calculate the count of orders for each payment mode. This would likely involve filtering the data for each payment mode and then using the COUNTROWS function to count the number of records in the filtered table.
+                    <br> <br>
+                    <strong> Profit by Sub-Category:</strong>
+                    <br>
+                    This section likely shows a table that breaks down the total profit by product subcategory. A DAX formula would be used to calculate the total profit for each subcategory. This would likely involve subtracting the cost of goods sold from the sales amount for each transaction record, and then summing the profit amount for each subcategory.
+                    <br>
+                    <br>
+                    <li> It’s important to note that these are just examples of how DAX formulas could be used to create the visuals in this dashboard. The specific formulas would depend on the structure of the underlying data in Power BI.
+                </div>
+                <!-- Images  -->
+                <div class="row container_content_bg_nd_pd mb-2 p-3">
+                    <img src="images/e_com_1.jpg" alt="" width="100%" class="mb-3">
+                    <span style="display: flex; justify-content: center; width: 100%;" class="mb-3">Dashboard View 1</span>
+                    <img src="images/e_com_2.jpg" alt="" width="100%" class="mb-3">
+                    <span style="display: flex; justify-content: center; width: 100%;" class="mb-3">Dashboard View 2</span>
+                    <img src="images/e_com_3.jpg" alt="" width="100%" class="mb-3">
+                    <span style="display: flex; justify-content: center; width: 100%;" class="mb-2">Dashboard View 3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>

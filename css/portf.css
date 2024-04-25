@@ -159,3 +159,8 @@ nav{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.info_line_pro{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: flex-start;
+}
